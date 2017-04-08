@@ -1,0 +1,7 @@
+Project Phase II Document is our document for Phase II submission. (Docx & PDF are showing same content)
+
+Our document contains everything for submission. However, for graph clearly issues, we also attach pdf files for each individual graph as following:
+	Database Relational Schema Basic.pdf shows relational schema without foreign key (without line&pointers).
+	Database Relational Schema Full.pdf shows relational schema with foreign key. (Relations, attributes, and primary keys are same with Basic PDF)
+	Database Relational Schema Constrain.pdf shows constraints for each individual attributes. (Relations, attributes, and primary keys are same with Basic PDF)
+	Updated EER.pdf shows modified EER model.

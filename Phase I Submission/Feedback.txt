@@ -1,0 +1,22 @@
+Feedback
+10/18/14 5:30 PM
+Graduate school: no need for this entity type -1
+Room: should be a weak entity type -2
+
+Employee: specialization should be overlapping -1
+
+Professor: no need to specialize professor, an attribute for rank is enough -0
+
+Section: partial key use dashed underline -0
+
+Section: partial key should be the combination of number, semester and year -1
+
+Relationship between professor and student: neither of the two entities should have total participation -1
+
+Relationship among RA, professor and lab: wrong constraint for lab -1
+
+Relationship “prerequisite” between student and course: student should not have total participation -1
+
+Instructor: shouldn't be modeled like that. You may model instructor as a subclass of employee, or as union of professor and lecturer. But your method create a problem: what's the key of instructor? -2
+
+Relationship between lecturer/TA/professor and office: office should not have total participation -1
